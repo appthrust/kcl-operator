@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: quay.io/appthrust/you-can-remove-this/kcl-lang/webhook-init
+          images: quay.io/appthrust/you-can-remove-this/kcllang/webhook-init
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
@@ -86,7 +86,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: quay.io/appthrust/you-can-remove-this/kcl-lang/webhook-server
+          images: quay.io/appthrust/you-can-remove-this/kcllang/webhook-server
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
